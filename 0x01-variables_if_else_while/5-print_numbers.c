@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - print single digit numbers 
+ * main - print single digit numbers
  *
  * Description: print single digit numbers
  *
@@ -11,7 +11,7 @@
 int main(void)
 {
 	int i;
-	i = 8:
+	i = 48;
 	while (i < 58)
 	{
 		putchar(i);
