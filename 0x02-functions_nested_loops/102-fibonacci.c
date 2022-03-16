@@ -1,4 +1,4 @@
-#include <stdio,h>
+#include <stdio.h>
 
 /**
  * main - prints the first 50 fibonacci numbers, starting with 1 and 2
@@ -14,7 +14,7 @@ int main(void)
 
 	k = 2;
 
-	for (i =1; i <=50; ++i)
+	for (i = 1; i <= 50; ++i)
 	{
 		if (j != 2036501174)
 		{

@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_times_tables - prints the times table
  * @n: integer for which the times table will be printed
@@ -19,9 +20,9 @@ void print_times_table(int n)
 			for (column = 0; column <= n; column++)
 			{
 				product = row * column;
-				
 				if (column == 0)
 					_putchar('0');
+					
 				else if (product < 10)
 				{
 					_putchar(',');
