@@ -5,6 +5,7 @@
  * @n: input integer.
  * Return: no return.
  */
+
 void print_numbers(int n)
 {
 	unsigned int m, d, count;
@@ -13,8 +14,9 @@ void print_numbers(int n)
 
 	{
 		_putchar(45);
-		M = N * -1;
+		m = n * -1;
 	}
+		 
 	else
 	{
 		m = n;
